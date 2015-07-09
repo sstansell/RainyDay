@@ -1,7 +1,7 @@
 
 
 .card {
-  border: 1px solid $whitish;
+  //border: 1px solid $whitish;
   display: inline-block;
   width: 300px;  
   padding:1.5rem;
@@ -15,43 +15,22 @@
   /*animation:fly-in-from-left .5s 1s ease both;
   transform-origin:top left;*/
 }
-/*.card::before{
-  content: "";
-  z-index: -1;
-  color: $whitish;
-  display: block;
-  width: 300px;
-  height: 100px;
-  //background:url(data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=) rgba(255,255,255,0.0) bottom center fixed no-repeat;
-  background:url($mainBgImage) bottom center fixed no-repeat;  
-  filter: blur(15px);
-}*/
-  .cardBg{
-      //background:url($mainBgImage) bottom center fixed no-repeat;
-      
-      padding: 70px 90px 120px 90px;
-      /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      z-index: 99;
 
-      /* Pull the background 70px higher to the same place as #bg's */
-      background-position: center -70px;
-
-      -webkit-filter: blur(10px);
-      //filter: url('/media/blur.svg#blur');
-      //filter: blur(10px);      
-  }
 .current{
-
+  
   padding-top: 100px;
   text-align: center; 
   margin:auto;
   h1{
     font-size: 6rem;
+  }
+  .conditions{
+    color:$whitish;
+    font-size:6rem;
+    font-weight: 100;
+    text-align:center;
+    margin: auto;
+
   }
   .tempRange{
 
