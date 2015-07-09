@@ -1,5 +1,6 @@
 body{
   background-color: $backColor;
+  //background:url($mainBgImage) bottom center fixed no-repeat;
 }
 
 ::selection {
@@ -17,8 +18,28 @@ body{
   position:absolute;
   width:100%;
   height:100%;
-  background:url($mainBgImage) rgba(79,79,79,0.6) bottom center fixed no-repeat;
+  background:url($mainBgImage) bottom center fixed no-repeat;
+  .opacity{
+    position:absolute;
+    width:100%;
+    height:100%;
+    //background:rgba(255,255,255,0.25); /* Standard Off */
+  }  
 }
+/*.container::before{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background:url($mainBgImage) bottom center fixed no-repeat;
+  width: 100%;
+  height: 100%;
+  
+  //filter: blur(15px);
+}*/
 
 
 
