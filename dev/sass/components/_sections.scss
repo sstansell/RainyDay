@@ -1,0 +1,31 @@
+
+
+.card {
+  border: 1px solid $medText;
+  display: inline-block;
+  width: 300px;  
+  padding:1.5rem;
+  box-shadow:0 1px 2px #aaa;
+  margin:0 1rem 1rem;
+  border-radius:3px;
+  user-select:none;
+  /*animation:fly-in-from-left .5s 1s ease both;
+  transform-origin:top left;*/
+}
+
+.current{
+  background: $backColor;
+  text-align: center; 
+  margin:auto;
+  h1{
+    font-size: 6rem;
+  }
+  .tempRange{
+
+  }
+  .low, .high{
+    width: 40%;
+    display:inline-block;
+    padding: 3%;
+  }
+}

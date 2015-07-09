@@ -1,0 +1,39 @@
+/** IMAGES */
+
+$mainBgImage: "/images/backgrounds/stormySky.jpg";
+$mainBgImageMed: "/images/backgrounds/stormySky.jpg";
+$mainBgImageSml: "/images/backgrounds/stormySky.jpg"; 
+$secondBgImage: "/images/backgrounds/nutsBolts_min.jpg";
+$arrowImage: "/images/arrow-down.png";
+
+
+/** COLORS */
+$whitish: #fafafa;
+$blackish: #212121;
+
+$activeColor: #BF3F3F;
+$navColor: $blackish;
+$backColor: #B9D9FF;
+$darkText: #212121;
+$medText: #757575;
+$lightText: #a4a4a4;
+
+/** GRID */
+$containerWidth: 960px;
+
+/** COLUMNS */
+$columnHeight: 100%;
+$columnMarginBottom: 70px;
+$columnMarginSides: 3%;
+
+/** MARGIN */
+$headerMargin: 60px;
+
+/** TYPE */
+$titleFontFamily: 'Lato', sans-serif;
+$headerFontFamily: 'Lato', sans-serif;
+$bodyFontFamily: 'Lato', sans-serif;
+
+/** BREAKPOINTS */
+$mediumBreak: $containerWidth;
+$smallBreak: 759px;

@@ -1,0 +1,39 @@
+body{
+  background-color: $backColor;
+}
+
+::selection {
+  background: $activeColor;
+  color:$whitish;
+}
+
+::-moz-selection {
+  background: $activeColor;
+  color:$whitish;
+}
+
+
+.container{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url($mainBgImage) rgba(79,79,79,0.6) bottom center fixed no-repeat;
+}
+
+
+
+img.responsive{
+  width: 100%;
+  height: auto;
+}
+
+
+
+.onlySmall{
+  display:none;
+}
+
+a.noDecorate{
+  text-decoration: none;
+  color: $darkText;
+}
